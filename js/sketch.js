@@ -2,26 +2,26 @@
 
 //creature1
 //body
-//x y coordinates
+// //x y coordinates
 let recX = 50;
 let recY = 50;
 //width and height
 const recWidth = 100;
 const recHeight = 25;
 //head
-let triX1 = recX + recWidth;
-let triY1 = recY;
-let triX2 = triX1 + recWidth;
-let triY2 = triY1 + recHeight;
-let triX3 = triX1;
-let triY3 = triY1 + recHeight; 
+// let triX1 = recX + recWidth;
+// let triY1 = recY;
+// let triX2 = triX1 + recWidth;
+// let triY2 = triY1 + recHeight;
+// let triX3 = triX1;
+// let triY3 = triY1 + recHeight; 
 
-let ntriX1 = triX1;
-let ntriY1 = triY1;
-let ntriX2 = triX2;
-let ntriY2 = triY2 - recHeight;
-let ntriX3 = triX3;
-let ntriY3 = triY3;
+// let ntriX1 = triX1;
+// let ntriY1 = triY1;
+// let ntriX2 = triX2;
+// let ntriY2 = triY2 - recHeight;
+// let ntriX3 = triX3;
+// let ntriY3 = triY3;
 
 // let triX1 = 25;
 // let triY1 = 5;
@@ -62,7 +62,25 @@ function setup() {
 }
 function draw() {
 
-
+    // let recX = 50;
+    // let recY = 50;
+    //width and height
+    // const recWidth = 100;
+    // const recHeight = 25;
+    //head
+    let triX1 = recX + recWidth;
+    let triY1 = recY;
+    let triX2 = triX1 + recWidth;
+    let triY2 = triY1 + recHeight;
+    let triX3 = triX1;
+    let triY3 = triY1 + recHeight; 
+    
+    let ntriX1 = triX1;
+    let ntriY1 = triY1;
+    let ntriX2 = triX2;
+    let ntriY2 = triY2 - recHeight;
+    let ntriX3 = triX3;
+    let ntriY3 = triY3;
     
     background(0);
 
