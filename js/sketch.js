@@ -54,7 +54,7 @@ let yP = 0;
 let mySound;
 function preload() {
 soundFormats('mp3');
- mySound = loadSound('../sound/earthhum.mp3');
+ mySound = loadSound('./../sound/earthhum.mp3');
 }
 
 function setup() {
@@ -71,7 +71,7 @@ function canvasPressed() {
   if(mySound.isPlaying() == true){
     mySound.stop();
   } else{
-  mySound.play(); 
+  mySound.loop(); 
   }
 }
 
